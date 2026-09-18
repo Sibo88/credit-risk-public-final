@@ -4,7 +4,7 @@ import {Activity,ShieldCheck,Home,BrainCircuit,UploadCloud,BarChart3,Info,Chevro
 import {ResponsiveContainer,LineChart,Line,XAxis,YAxis,Tooltip,CartesianGrid,ReferenceLine,BarChart,Bar,Legend} from 'recharts';
 import './styles.css';
 
-const API=import.meta.env.VITE_API_URL||'http://127.0.0.1:8001';
+const API=import.meta.env.VITE_API_URL||'https://credit-risk-api-ckia.onrender.com';
 const FEATURE_LABELS={loan_amnt:'Loan amount',term:'Term',int_rate:'Interest rate',grade:'Credit grade',emp_length:'Employment length',home_ownership:'Home ownership',annual_inc:'Annual income',purpose:'Loan purpose',dti:'Debt-to-income',delinq_2yrs:'Delinquencies (2y)',fico_score:'FICO score',inq_last_6mths:'Inquiries (6m)',open_acc:'Open accounts',revol_util:'Revolving utilisation',total_acc:'Total accounts',tot_cur_bal:'Current balance',total_rev_hi_lim:'Revolving credit limit',num_tl_op_past_12m:'New accounts (12m)',acc_now_delinq:'Current delinquencies',pub_rec_bankruptcies:'Bankruptcies'};
 const NAV=[['overview','Overview',Home],['predict','Credit prediction',BrainCircuit],['batch','Batch prediction',Database],['monitor','Trustworthiness',ShieldCheck],['research','Research dashboard',BarChart3],['models','Model management',RefreshCw],['about','About',Info]];
 

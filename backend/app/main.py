@@ -1581,7 +1581,7 @@ print("=" * 64)
 print(f"Active model : {ACTIVE_MODEL_PATH.name}")
 try:
     _startup_registry = _ensure_registry()
-    print(f"Previous     : {_startup_registry.get("previous_model")}")
+    print(f"Previous     : {_startup_registry.get('previous_model')}")
     print(f"Registry     : {MODEL_REGISTRY_PATH}")
 except Exception as exc:
     print(f"Registry     : unavailable ({exc})")

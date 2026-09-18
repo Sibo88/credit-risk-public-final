@@ -1,0 +1,22 @@
+[
+  "loan_amnt",
+  "term",
+  "int_rate",
+  "grade",
+  "emp_length",
+  "home_ownership",
+  "annual_inc",
+  "purpose",
+  "dti",
+  "delinq_2yrs",
+  "fico_score",
+  "inq_last_6mths",
+  "open_acc",
+  "revol_util",
+  "total_acc",
+  "tot_cur_bal",
+  "total_rev_hi_lim",
+  "num_tl_op_past_12m",
+  "acc_now_delinq",
+  "pub_rec_bankruptcies"
+]

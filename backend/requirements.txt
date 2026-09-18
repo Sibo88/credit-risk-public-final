@@ -1,0 +1,9 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.6
+lightgbm>=4.5
+joblib>=1.4
+shap>=0.46
